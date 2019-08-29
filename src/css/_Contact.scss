@@ -1,0 +1,44 @@
+.bg-black {
+    background-color: #161616!important;
+        padding: 5rem 0 0;
+        .card {
+            border: 0;
+            border-bottom: .25rem solid #64a19d;
+            .text-primary {
+                color: #64a19d!important;
+            }
+            h4 {
+                font-size: .8rem;
+                font-family: 'Varela Round';
+                text-transform: uppercase;
+                letter-spacing: .15rem;
+            }
+            hr {
+                border-color: #64a19d;
+                border-width: .25rem;
+                width: 3rem;
+            }
+            .text-black-50 {
+                color: rgba(0,0,0,.5)!important;
+            }
+            .small, small {
+                font-size: 80%;
+                font-weight: 400;
+            }
+        }
+        .social {
+            margin-top: 5rem;
+            a {
+                text-align: center;
+                height: 3rem;
+                width: 3rem;
+                background: rgba(255,255,255,.1);
+                border-radius: 100%;
+                line-height: 3rem;
+                color: rgba(255,255,255,.3);
+                .fab {
+                    font-family: "Font Awesome 5 Brands";
+                }
+            }
+        }
+    }
